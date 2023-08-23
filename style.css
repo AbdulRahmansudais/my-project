@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+
+  }
+
+  body {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+  }
+  .items{
+background: transparent;
+  }
+.main-img{
+  height: 280px;
+  width: 100%;
+
+}
+
+.gradient-custom {
+background: #000000;
+background: linear-gradient(to right, rgba(124, 2, 2, 0.9), rgba(240, 0, 0, 0.9));
+}
+.btn-no-hover{
+  position:static;
+  border: #000000;
+}
+.row-txt{
+
+  background-color: #ffffff;
+
+border-radius: 5px;
+
+  background-color: rgb(255, 255, 255);
+margin-top: 1px;
+font-weight: 350;
+font-size: 34px;
+
+  
+}
+body { background:transparent; }
+.item {
+
+margin: 0 auto;
+z-index: -10;
+position: relative;
+max-width: 100%;
+height: 240px;
+
+
+
+}
+.white{
+  color: rgb(0, 0, 0);
+}
+.img-wrap{
+  font-family: "Montserrat";
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)), url(././fans/3_1_2200d0de-a3b6-40eb-8b9b-fb1030b8b66c_2000x.webp);
+  height: 700px;
+  background-size: cover;
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+}
+.padding-top-300{
+  margin-top: 450px;
+}
+/* .item .img-wrap:before {
+content: '';
+opacity: 0.35;
+
+position: absolute;
+height: 100px;
+width: 100%;
+bottom: 0;
+
+
+}
+.item .img-wrap:after {
+content: '';
+display: block;
+
+} */
+.img-wrap img {
+
+max-width: 100%;
+vertical-align: middle;
+border: 0;
+box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+-ms-interpolation-mode: bicubic;
+}
+.shop-now{
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+  .navbar {
+    border-bottom:2px solid#00000041;
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+
+  .navbar a {
+    font-size: 22px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.747);
+
+  }
+.nav-item{
+  padding-left: 20px;
+}
+  .logo {
+    text-align: left;
+    padding-right: 80px;
+  margin-left: 60px;
+    font-size: 28px;
+    position: absolute;
+    display: inline-block;
+
+  }
+  .align-right{
+    font-size: small;
+  margin-left: 700px;
+  }
+
+  .content {
+   margin-top: 75px; /* Adjust the margin-top value according to your needs */
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .row {
+    margin-top: 10px;
+  }
+
+  .row h2 {
+    margin-bottom: 10px;    
+
+  }
+
+  .card {
+    
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    height: 550px;
+  
+  }
+
+  .g-image {
+
+    width: 100%;
+    height: 300px;
+
+  }
+  .chk{
+    font-size: larger;
+  }
+.product-text{
+  text-align: left;
+  font-weight: 390;
+  font-size: 20px;
+}
+.product-description{
+  font-size: 17px;
+  text-decoration: none;
+
+}
+.product-title{
+  text-align: left;
+  font-weight: bold;
+  font-stretch:narrower;
+ font-size: 20px;
+  color: rgb(0, 111, 152);
+}
+.price{
+  text-align: center;
+  font-size: 26px;
+  color: #454545;
+  font-weight: 340;
+  
+}
+.d{
+
+  font-size: 26px;
+  margin-right: 0;
+  font-style: normal;
+  font-weight: lighter;
+}
+.product-btn{
+width: 180px;
+text-align: center;
+}
+.star{
+  text-align: center;
+  font-size: 16px;
+  color: rgb(0, 111, 152);
+  
+  
+
+}
+@media(max-width:768px) , (min-width:768px){
+.card{margin: auto;}
+}
+@media(min-width:768){
+  .margin-top{
+    margin-top:5px;
+  }
+  
+}
+@media(min-width:768){
+  .btn-no-hover{
+    font-size: small;
+  }
+  
+}
+.page-footer{
+    background-color: #e4e4e4;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+.link{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+.footer-copyright{
+  color: rgb(0, 0, 0);
+  background-color:  #c4c4c4;
+}
+.pedestial{
+  height: 350px;
+  width: 230px;
+}
+.pedestial-card{
+  height: 575px;
+}
+.image{
+  
+
+  background-image: url('/fans/black-and-decker-fan96-648cad94ba0af.jpg');
+
+
+}
+.contennt{
+  margin: 0;
+  padding: 0;
+  border: 1px solid;
+  padding: 21em;
+ z-index:-1 ; 
+ background-size: 100% ;
+  background-image:
+  url(./fans/black-and-decker-fan96-648cad94ba0af.jpg)
+  ;
+}
+.goal{
+ 
+  height: 320px;
+  width: 65%;
+  text-align: center;
+
+  font-family: sans-serif;
+  font-weight: 300;
+
+}
+.our{
+  color:rgb(255, 255, 255);
+  
+}
+.gooal{
+  color: #ffffff;
+
+
+  font-size: 25px;
+}
+.bold{
+  z-index: 9999;
+}
+.our-products{
+  margin-top: 250px;
+}
